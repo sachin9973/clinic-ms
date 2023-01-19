@@ -1,0 +1,12 @@
+﻿body{
+    overflow-x:hidden;
+    min-height:100vh;
+}
+
+.Homeimg{
+    height:550px;
+    width:100vw;
+}
+.txt{
+    color:white;
+}
