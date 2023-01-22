@@ -59,6 +59,7 @@ namespace ClinicHospitalMS.Views.Admin
                 Lab_Phone.Text = "";
                 Lab_Address.Text = "";
                 Lab_Gender.Text = "";
+                Response.AddHeader("refresh", "0");
 
             }
             catch (Exception ex)

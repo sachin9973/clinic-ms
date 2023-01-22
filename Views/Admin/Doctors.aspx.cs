@@ -66,9 +66,9 @@ namespace ClinicHospitalMS.Views.Admin
                  Doc_Gender.Text = "";
                  Doc_Address.Text = "";
                  Doc_Dob.Text = "";
-                 Response.AddHeader("refesh", "0");
+                 Response.AddHeader("refresh", "0");
 
-             }
+            }
              catch (Exception ex)
              {
                  throw ex;

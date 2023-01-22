@@ -52,13 +52,12 @@ namespace ClinicHospitalMS.Views.Admin
                 con.Open();
                 cmd.ExecuteNonQuery();
                 ErrMsg.InnerText = "Receptionist Added";
-                //ErrMsg.Attributes.CssStyle.Add("class","text-dark"); 
                 Rec_Name.Text = "";
                 Rec_Email.Text = "";
                 Rec_Password.Text = "";
                 Rec_Phone.Text = "";
                 Rec_Address.Text = "";
-                //Response.Headers ("refresh", "0");
+                Response.AddHeader ("refresh", "0");
             }
             catch (Exception ex)
             {
